@@ -59,10 +59,12 @@ export default function Home() {
                 </p>
                 <div className="mt-7">
                   <Link
-                    href="/contact"
+                    href="https://runsignup.com/Race/OH/Westerville/RunLikeAGirl5KAnd10K"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex rounded-full border border-[#1f7f56] bg-[#1c9a64] px-10 py-4 text-xl font-black uppercase tracking-[0.05em] text-[#f7d96f] shadow-[0_10px_25px_rgba(0,0,0,0.45)] transition hover:brightness-110"
                   >
-                    Get Started Today
+                    Click Here To Register
                   </Link>
                 </div>
               </div>
@@ -79,7 +81,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="mt-4  bg-[#212831]">
+        <section id="swag" className="mt-4  bg-[#212831]">
           <div className="container mx-auto grid gap-4 md:grid-cols-3">
             {[
               {
@@ -186,10 +188,12 @@ export default function Home() {
               <p className="mt-5 text-3xl text-white sm:text-3xl">Sarah Chen, Event Director</p>
               <div className="mt-6">
                 <Link
-                  href="/contact"
+                  href="https://runsignup.com/Race/OH/Westerville/RunLikeAGirl5KAnd10K"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex rounded-full border border-[#1f7f56] bg-[#1c9a64] px-8 py-3 text-xl font-black uppercase tracking-[0.05em] text-[#f7d96f] transition hover:brightness-110"
                 >
-                  Register Now
+                  Click Here To Register
                 </Link>
               </div>
             </div>

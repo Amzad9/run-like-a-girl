@@ -16,7 +16,7 @@ export default function SiteFooter() {
       <div className="container mx-auto">
         <div className="grid gap-8 pb-8 pt-8 lg:grid-cols-5">
           <div>
-            <div className="relative h-28 w-44 overflow-hidden  bg-transparent p-1">
+            <div className="relative h-44 w-44 overflow-hidden  bg-transparent p-1">
               <Image
                 src="/new/logo-girl.png"
                 alt="Run Like A Girl logo"

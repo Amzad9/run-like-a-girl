@@ -5,12 +5,12 @@ export type SiteNavItem = {
 
 export const siteNav: SiteNavItem[] = [
   { label: "Home", href: "/" },
-  { label: "Events", href: "/services" },
-  { label: "Maps", href: "/maps" },
   { label: "About", href: "/about" },
-  { label: "Race Day", href: "/case-studies" },
-  { label: "Sponsors", href: "/sponsors" },
-  { label: "Contact", href: "/contact" },
+  { label: "Event Details", href: "/event-details" },
+  { label: "Our Beneficiary", href: "/our-beneficiary" },
+  { label: "Swag", href: "/swag" },
+  { label: "Packet Pickup", href: "/packet-pickup" },
+  { label: "Questions", href: "/questions" },
 ];
 
 export const siteContact = {

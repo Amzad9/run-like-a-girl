@@ -46,29 +46,28 @@ export default function AboutPage() {
         imageUrl: "https://images.pexels.com/photos/1571939/pexels-photo-1571939.jpeg",
       }}
     >
-      <section className="px-4 py-10 sm:px-8 sm:py-14">
+      <section id="mission" className="px-4 py-10 sm:px-8 sm:py-14">
         <div className="container mx-auto grid gap-6 lg:grid-cols-12">
           <div className="lg:col-span-7">
             <h2 className="text-3xl font-black uppercase tracking-tight text-[#f3d27d] sm:text-5xl">
               Our Mission
             </h2>
             <p className="mt-4 text-base leading-7 text-white/90 sm:text-lg sm:leading-8">
-              Run Like A Girl exists to create an empowering event experience for women of all
-              abilities—elite runners, weekend warriors, and first-timers. We believe the best race
-              days feel inclusive, organized, and full of community support.
+              Girls on the Run Central Ohio&apos;s mission is to inspire girls to be healthy,
+              confident, and joyful, using an experience-based curriculum that integrates running.
+              The program, designed for girls in grades 3-8, focuses on social, emotional, and
+              physical skills, empowering them to activate their limitless potential.
             </p>
-            <p className="mt-4 text-base leading-7 text-white/90 sm:text-lg sm:leading-8">
-              With 5K, 10K, and 10-Mile options, you can choose your challenge and show up as you
-              are. Come chase a PR, run with friends, or take that first brave step into the start
-              corral.
-            </p>
+           
 
             <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <Link
-                href="/contact"
+                href="https://runsignup.com/Race/OH/Westerville/RunLikeAGirl5KAnd10K"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-full border border-[#1f7f56] bg-[#1c9a64] px-8 py-3 text-center text-sm font-black uppercase tracking-wide text-[#f7d96f] shadow-[0_10px_25px_rgba(0,0,0,0.45)] transition hover:brightness-110 sm:w-fit sm:text-base"
               >
-                Contact Us
+                Click Here To Register
               </Link>
               <Link
                 href="/services"

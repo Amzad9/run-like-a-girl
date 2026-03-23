@@ -61,7 +61,7 @@ export default function SiteHeader({ activeLabel }: { activeLabel?: string }) {
         </button>
 
         <nav className="hidden shrink-0 sm:block sm:w-auto" aria-label="Primary navigation">
-          <div className="flex flex-wrap items-center justify-end gap-5 text-[14px] font-black uppercase tracking-[0.05em] text-white lg:gap-8">
+          <div className="flex flex-wrap items-center justify-end gap-5 text-[12px] xl:text-[14px] font-black uppercase tracking-[0.05em] text-white lg:gap-8">
             {siteNav.map((item) => {
               const isActive = item.label === activeLabel;
               return (
@@ -80,10 +80,12 @@ export default function SiteHeader({ activeLabel }: { activeLabel?: string }) {
               );
             })}
             <Link
-              href="/contact"
+              href="https://runsignup.com/Race/OH/Westerville/RunLikeAGirl5KAnd10K"
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-full border border-[#1f7f56] bg-[#1c9a64] px-5 py-2 text-[#f7d96f] shadow-[0_8px_20px_rgba(0,0,0,0.35)] transition hover:brightness-110"
             >
-              Register Now
+              Register Here
             </Link>
           </div>
         </nav>

@@ -19,7 +19,7 @@ const proposalPoints = [
 export default function ServicesPage() {
   return (
     <PageShell
-      activeLabel="Events"
+      activeLabel="Event Details"
       hero={{
         eyebrow: "Event Details",
         title: "Race Distances",
@@ -89,10 +89,12 @@ export default function ServicesPage() {
 
                 <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
                   <Link
-                    href="/contact"
+                    href="https://runsignup.com/Race/OH/Westerville/RunLikeAGirl5KAnd10K"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 rounded-full border border-[#1f7f56] bg-[#1c9a64] px-6 py-3 text-center text-sm font-black uppercase tracking-wide text-[#f7d96f] shadow-[0_10px_25px_rgba(0,0,0,0.45)] transition hover:brightness-110 sm:w-fit sm:px-8 sm:text-base"
                   >
-                    Register Now
+                    Click Here To Register
                     <ArrowRight className="h-4 w-4" strokeWidth={2.6} />
                   </Link>
                   <a
