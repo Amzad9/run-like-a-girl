@@ -30,7 +30,7 @@ export default function Home() {
 
         <section
           id="home"
-          className="relative overflow-hidden px-4  bg-[#1e252d] pt-8"
+          className="relative overflow-hidden px-4 bg-[#1e252d] pt-8 pb-8"
         >
           {/* <div className="absolute inset-0">
             <Image
