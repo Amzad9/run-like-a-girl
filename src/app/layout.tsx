@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="antialiased">
         <LoadingSplash
-          src="/new/Run%20Like%20a%20Girl%2004.gif"
+          src="https://static.wixstatic.com/media/f060bf_a822feb1696d484ba7444a2c953faaff~mv2.png/v1/fill/w_1000,h_1000,al_c,q_90,enc_avif,quality_auto/Run-Like-a-Girl-04.png"
           alt="Run Like a Girl loading"
           durationMs={2000}
         />
