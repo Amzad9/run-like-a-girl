@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-import LoadingSplash from "../components/LoadingSplash";
-
 export const metadata: Metadata = {
   title: "Atlas Pool Solutions",
   description:
