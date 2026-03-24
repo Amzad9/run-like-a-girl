@@ -188,7 +188,7 @@ export default function Home() {
               />
             </div>
             <div>
-                <h3 className="md:text-5xl font-black uppercase leading-none text-[#f3d27d] text-2xl">
+                <h3 className="md:text-4xl font-black uppercase leading-none text-[#f3d27d] text-2xl">
                 A Message From Our Event Director
               </h3>
               <p className="mt-4 max-w-6xl text-3xl leading-[1.2] text-white/95 sm:text-2xl">
