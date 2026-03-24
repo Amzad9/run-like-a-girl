@@ -34,9 +34,9 @@ export default function SiteHeader({ activeLabel }: { activeLabel?: string }) {
           className="flex min-w-0 flex-1 items-center gap-2 sm:gap-3"
           aria-label="Run Like A Girl"
         >
-          <div className="relative h-20 w-20 overflow-hidden rounded-md bg-transparent sm:h-24 sm:w-24">
+          <div className="relative h-20 w-full overflow-hidden rounded-md bg-transparent">
             <Image
-              src="/new/Run-Like-a-Girl-04.avif"
+              src="/new/Run-Like-a-Girl-04-cropped.avif"
               alt="Run Like A Girl logo"
               fill
               className="object-contain"
@@ -62,7 +62,7 @@ export default function SiteHeader({ activeLabel }: { activeLabel?: string }) {
         </button>
 
         <nav className="hidden shrink-0 sm:block sm:w-auto" aria-label="Primary navigation">
-          <div className="flex flex-wrap items-center justify-end gap-5 text-[12px] xl:text-[14px] font-black uppercase tracking-[0.05em] text-white lg:gap-8">
+          <div className="flex flex-wrap items-center justify-end gap-3 text-[12px] xl:text-[14px] font-black uppercase tracking-[0.05em] text-white lg:gap-8">
             {siteNav.map((item) => {
               const isActive = item.label === activeLabel;
               return (
