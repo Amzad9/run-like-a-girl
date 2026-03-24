@@ -34,9 +34,9 @@ export default function SiteHeader({ activeLabel }: { activeLabel?: string }) {
           className="flex min-w-0 flex-1 items-center gap-2 sm:gap-3"
           aria-label="Run Like A Girl"
         >
-          <div className="relative h-16 w-16 overflow-hidden rounded-md bg-transparent sm:h-20 sm:w-20">
+          <div className="relative h-20 w-20 overflow-hidden rounded-md bg-transparent sm:h-24 sm:w-24">
             <Image
-              src="/new/logo-girl.png"
+              src="/new/Run-Like-a-Girl-04.avif"
               alt="Run Like A Girl logo"
               fill
               className="object-contain"
@@ -153,7 +153,7 @@ export default function SiteHeader({ activeLabel }: { activeLabel?: string }) {
         </nav>
       </div>
       </header>
-      <div aria-hidden className="h-[76px] sm:h-[92px]" />
+      <div aria-hidden className="h-[92px] sm:h-[108px]" />
     </>
   );
 }

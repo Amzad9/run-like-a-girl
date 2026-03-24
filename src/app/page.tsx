@@ -214,7 +214,7 @@ export default function Home() {
             <div className="flex flex-col gap-4 border-b border-white/15 py-8 sm:flex-row sm:items-center">
               <div className="relative h-28 w-28 overflow-hidden rounded-xl border border-white/20">
                 <Image
-                  src="/new/logo-girl.png"
+                  src="/new/Run-Like-a-Girl-04.avif"
                   alt="Run Like A Girl logo"
                   fill
                   className="object-cover"

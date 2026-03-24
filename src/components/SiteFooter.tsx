@@ -16,9 +16,9 @@ export default function SiteFooter() {
       <div className="container mx-auto">
         <div className="grid gap-8 pb-8 pt-8 lg:grid-cols-5">
           <div>
-            <div className="relative h-44 w-44 overflow-hidden  bg-transparent p-1">
+            <div className="relative h-64 w-auto overflow-hidden  bg-transparent p-1">
               <Image
-                src="/new/logo-girl.png"
+                src="/new/Run-Like-a-Girl-04.avif"
                 alt="Run Like A Girl logo"
                 fill
                 className="object-contain"
