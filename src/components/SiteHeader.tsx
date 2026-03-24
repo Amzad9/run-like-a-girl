@@ -31,10 +31,10 @@ export default function SiteHeader({ activeLabel }: { activeLabel?: string }) {
       <div className="container mx-auto flex items-center justify-between gap-4  px-3 py-1  sm:px-5">
         <Link
           href="/"
-          className="flex min-w-0 flex-1 items-center gap-2 sm:gap-3"
+          className="flex min-w-0 shrink-0 items-center"
           aria-label="Run Like A Girl"
         >
-          <div className="relative h-20 w-full overflow-hidden rounded-md bg-transparent">
+          <div className="relative h-16 w-[120px] overflow-hidden rounded-md bg-transparent sm:h-20 sm:w-[210px] lg:w-[190px]">
             <Image
               src="/new/Run-Like-a-Girl-04-cropped.avif"
               alt="Run Like A Girl logo"
@@ -62,7 +62,7 @@ export default function SiteHeader({ activeLabel }: { activeLabel?: string }) {
         </button>
 
         <nav className="hidden shrink-0 sm:block sm:w-auto" aria-label="Primary navigation">
-          <div className="flex flex-wrap items-center justify-end gap-3 text-[12px] xl:text-[14px] font-black uppercase tracking-[0.05em] text-white lg:gap-8">
+          <div className="flex flex-wrap items-center justify-end gap-2 xl:gap-7 text-[10px] font-black uppercase tracking-[0.04em] text-white md:text-[11px] lg:gap-5 lg:text-[12px] xl:text-[13px]">
             {siteNav.map((item) => {
               const isActive = item.label === activeLabel;
               return (
@@ -84,7 +84,7 @@ export default function SiteHeader({ activeLabel }: { activeLabel?: string }) {
               href="https://runsignup.com/Race/OH/Westerville/RunLikeAGirl5KAnd10K"
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-full border border-[#1f7f56] bg-[#1c9a64] px-5 py-2 text-[#f7d96f] shadow-[0_8px_20px_rgba(0,0,0,0.35)] transition hover:brightness-110"
+              className="rounded-full border border-[#1f7f56] bg-[#1c9a64] px-3 py-2 text-[10px] text-[#f7d96f] shadow-[0_8px_20px_rgba(0,0,0,0.35)] transition hover:brightness-110 md:px-4 md:text-[11px] lg:px-5 lg:text-[12px]"
             >
               Register Here
             </Link>
