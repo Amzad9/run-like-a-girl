@@ -12,7 +12,7 @@ const socialIcons = {
 
 export default function SiteFooter() {
   return (
-    <footer className="mt-10 border-t border-white/10 bg-[radial-gradient(circle_at_top,#2a3138,#171c22_55%,#12171d)] px-3 md:px-0">
+    <footer className="mt-0 pt-4 border-t border-white/10 bg-[radial-gradient(circle_at_top,#2a3138,#171c22_55%,#12171d)] px-3 md:px-0">
       <div className="container mx-auto">
         <div className="grid gap-8 pb-8 pt-8 lg:grid-cols-5">
           <div>

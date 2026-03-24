@@ -43,7 +43,7 @@ export default function Home() {
             <div className="absolute inset-0 bg-gradient-to-r from-[#171b22]/95 via-[#1c232b]/85 to-[#1c232b]/35" />
           </div> */}
           <div className="container mx-auto">
-            <div className="relative z-10 grid gap-6 lg:grid-cols-2">
+            <div className="relative z-10 grid gap-6 lg:grid-cols-2 lg:items-center">
               <div className="max-w-7xl">
                 <h1 className="text-4xl md:text-5xl font-black uppercase leading-[0.92] text-[#f3d27d]">
                   All Women’s
@@ -62,20 +62,30 @@ export default function Home() {
                     href="https://runsignup.com/Race/OH/Westerville/RunLikeAGirl5KAnd10K"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex rounded-full border border-[#1f7f56] bg-[#1c9a64] px-10 py-4 text-xl font-black uppercase tracking-[0.05em] text-[#f7d96f] shadow-[0_10px_25px_rgba(0,0,0,0.45)] transition hover:brightness-110"
+                    className="inline-flex rounded-full border border-[#1f7f56] bg-[#1c9a64] px-10 py-4 text-md md:text-xl font-black uppercase tracking-[0.05em] text-[#f7d96f] shadow-[0_10px_25px_rgba(0,0,0,0.45)] transition hover:brightness-110"
                   >
                     Click Here To Register
                   </Link>
                 </div>
               </div>
 
-              <div className="relative min-h-[280px] overflow-hidden rounded-3xl border border-white/20 bg-[#83a73d]">
-                <Image
+              <div className="relative overflow-hidden rounded-3xl border border-white/20 bg-[#83a73d]">
+                <iframe
+                  className="min-h-[240px] md:min-h-[480px] w-full"
+                  src="https://www.youtube.com/embed/VCWqDAj7lNU?si=W3pCGUsM7ftEH_GB&autoplay=1&mute=1&playsinline=1&loop=1&playlist=VCWqDAj7lNU"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                />
+
+                {/* <Image
                   src="https://images.pexels.com/photos/1571939/pexels-photo-1571939.jpeg"
                   alt="Women runners smiling"
                   fill
                   className="object-cover"
-                />
+                /> */}
               </div>
             </div>
           </div>
@@ -116,10 +126,10 @@ export default function Home() {
               />
             </div>
             <div>
-              <h2 className="text-4xl font-black uppercase leading-none text-[#f3d27d] sm:text-4xl">
+              <h2 className="md:text-4xl font-black uppercase leading-none text-[#f3d27d] text-2xl">
                 Featured Event Details
               </h2>
-              <ul className="mt-5 space-y-4 text-2xl leading-[1.25] text-white/95 sm:text-2xl">
+              <ul className="mt-5 space-y-4 text-2xl leading-tight text-white/95 sm:text-2xl">
                 <li>
                   <span className="font-semibold">Choose your challenge:</span> Distances are 5K, 10K,
                   and 10-Mile.
@@ -178,7 +188,7 @@ export default function Home() {
               />
             </div>
             <div>
-                <h3 className="text-5xl font-black uppercase leading-none text-[#f3d27d] sm:text-4xl">
+                <h3 className="md:text-5xl font-black uppercase leading-none text-[#f3d27d] text-2xl">
                 A Message From Our Event Director
               </h3>
               <p className="mt-4 max-w-6xl text-3xl leading-[1.2] text-white/95 sm:text-2xl">

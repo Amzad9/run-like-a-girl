@@ -170,7 +170,8 @@ export default function SponsorsPage() {
         ),
         subtitle:
           "We’re grateful to the partners and local supporters who help make the All Women’s Fall Classic possible.",
-        imageUrl: "https://images.pexels.com/photos/2803158/pexels-photo-2803158.jpeg",
+        imageUrl:
+          "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?auto=format&fit=crop&w=1800&q=80",
       }}
     >
       <section className="px-4 py-10 sm:px-8 sm:py-14">

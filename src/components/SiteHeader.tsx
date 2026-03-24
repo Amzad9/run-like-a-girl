@@ -26,8 +26,9 @@ export default function SiteHeader({ activeLabel }: { activeLabel?: string }) {
   const closeMenu = () => setIsMobileMenuOpen(false);
 
   return (
-    <header className="px-4 pt-1">
-      <div className="container mx-auto flex items-center justify-between gap-4  bg-linear-to-r from-[#222831] via-[#2c333c] to-[#232a33] px-3 py-0  sm:px-5">
+    <>
+      <header className="fixed inset-x-0 top-0 z-30 px-4 pt-1 bg-[#232a33]">
+      <div className="container mx-auto flex items-center justify-between gap-4  px-3 py-1  sm:px-5">
         <Link
           href="/"
           className="flex min-w-0 flex-1 items-center gap-2 sm:gap-3"
@@ -70,7 +71,7 @@ export default function SiteHeader({ activeLabel }: { activeLabel?: string }) {
                     href={item.href}
                     className={[
                       "transition hover:text-[#f0d07a]",
-                      isActive ? "text-[#f0d07a]" : "",
+                      isActive ? "text-[#f0d07a]" : "",  
                     ].join(" ")}
                     aria-current={isActive ? "page" : undefined}
                   >
@@ -151,6 +152,8 @@ export default function SiteHeader({ activeLabel }: { activeLabel?: string }) {
           </ul>
         </nav>
       </div>
-    </header>
+      </header>
+      <div aria-hidden className="h-[76px] sm:h-[92px]" />
+    </>
   );
 }

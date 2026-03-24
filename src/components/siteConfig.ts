@@ -9,6 +9,7 @@ export const siteNav: SiteNavItem[] = [
   { label: "Event Details", href: "/event-details" },
   { label: "Our Beneficiary", href: "/our-beneficiary" },
   { label: "Swag", href: "/swag" },
+  { label: "Sponsors", href: "/sponsors" },
   { label: "Packet Pickup", href: "/packet-pickup" },
   { label: "Questions", href: "/questions" },
 ];
