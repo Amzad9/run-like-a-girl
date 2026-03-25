@@ -46,9 +46,9 @@ export default function Home() {
             <div className="relative z-10 grid gap-6 lg:grid-cols-2 lg:items-center">
               <div className="max-w-7xl">
                 <h1 className="text-4xl md:text-5xl font-black uppercase leading-[0.92] text-[#f3d27d]">
-                  All Women’s
-                  Fall Classic
+                 Run Like A Girl 5K 10K 10-Mile
                 </h1>
+              
                 <p className="mt-3 text-2xl font-semibold text-[#f3d27d] sm:text-4xl">
                   Westerville, Ohio | 10/04/2026
                 </p>
@@ -191,11 +191,22 @@ export default function Home() {
                 <h3 className="md:text-4xl font-black uppercase leading-none text-[#f3d27d] text-2xl">
                 A Message From Our Event Director
               </h3>
-              <p className="mt-4 max-w-6xl text-3xl leading-[1.2] text-white/95 sm:text-2xl">
-                &ldquo;Our mission is to empower women to reach their fitness goals in a friendly and
-                competitive environment. Welcome, runners!&rdquo;
+              <p className="mt-4 max-w-6xl text-xl leading-8 text-white/95 sm:text-2xl sm:leading-[1.3]">
+                On behalf of the running and fitness community of Central Ohio, we are proud to
+                present an all-female program created to inspire and empower women of all ages and
+                fitness levels.
               </p>
-              <p className="mt-5 text-3xl text-white sm:text-3xl">Sarah Chen, Event Director</p>
+              <p className="mt-3 max-w-6xl text-xl leading-8 text-white/95 sm:text-2xl sm:leading-[1.3]">
+                Our mission is to help women achieve their fitness goals in a fun, supportive, and
+                motivating environment.
+              </p>
+              <p className="mt-3 max-w-6xl text-xl leading-8 text-white/95 sm:text-2xl sm:leading-[1.3]">
+                Whether you&apos;re a first-time participant or a seasoned runner, this program offers
+                the perfect opportunity to train, connect, and grow. It&apos;s also an excellent
+                preparation for fall marathons and other distance events.
+              </p>
+              <p className="mt-5 text-2xl text-white sm:text-3xl">Jeff Sheard - Race Director</p>
+              <p className="mt-1 text-xl text-white/90 sm:text-2xl">Jeff S</p>
               <div className="mt-6">
                 <Link
                   href="https://runsignup.com/Race/OH/Westerville/RunLikeAGirl5KAnd10K"
