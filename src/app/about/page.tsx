@@ -53,10 +53,7 @@ export default function AboutPage() {
               Our Mission
             </h2>
             <p className="mt-4 text-base leading-7 text-white/90 sm:text-lg sm:leading-8">
-              Girls on the Run Central Ohio&apos;s mission is to inspire girls to be healthy,
-              confident, and joyful, using an experience-based curriculum that integrates running.
-              The program, designed for girls in grades 3-8, focuses on social, emotional, and
-              physical skills, empowering them to activate their limitless potential.
+            Join us for an empowering all-women's running event that unites the Central Ohio running community! With options for a 5K, 10K, and 10-miler, there's something for everyone—from elite runners to weekend warriors and first-timers. Experience a morning with friendly competition, camaraderie, and the chance to make new friends. Don't miss out on this fantastic opportunity to celebrate fitness friendship! Proceeds to benefit "Girls on the Run"
             </p>
            
 

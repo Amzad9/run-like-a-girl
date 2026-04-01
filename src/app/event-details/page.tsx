@@ -13,26 +13,20 @@ const distances = [
   {
     title: "Run Like A Girl 10-Mile",
     miles: "10 miles",
-    startTime: "8:00 AM",
+    startTime: "8:00AM",
     body: "Our premier long-distance challenge for runners building endurance and race-day confidence.",
   },
   {
     title: "Run Like A Girl 10K",
     miles: "6.2 miles",
-    startTime: "8:15 AM",
+    startTime: "8:00AM",
     body: "A balanced distance for athletes ready to step up from shorter races.",
   },
   {
     title: "Run Like A Girl 5K",
     miles: "3.1 miles",
-    startTime: "8:30 AM",
+    startTime: "8:00AM",
     body: "A welcoming course for first-timers, walkers, and runners chasing a strong finish.",
-  },
-  {
-    title: "Run Like A Girl Community Mile",
-    miles: "1 mile",
-    startTime: "8:45 AM",
-    body: "A short, celebratory option for families and supporters who want to join race-day energy.",
   },
 ];
 
@@ -78,16 +72,16 @@ export default function EventDetailsPage() {
             Starting line for all events - Westerville Athletic Complex
           </p>
 
-          <div className="mt-5 grid gap-4 md:grid-cols-2">
+          <div className="mt-5 grid gap-4 md:grid-cols-3">
             {distances.map((item) => (
               <article
                 key={item.title}
                 className="rounded-2xl border border-white/15 bg-[#1e252d] p-5 shadow-[0_14px_30px_rgba(0,0,0,0.20)]"
               >
-                <h2 className="text-2xl font-black tracking-tight text-white sm:text-3xl">
+                <h2 className="text-xl font-black tracking-tight text-white sm:text-xl">
                   {item.title} ({item.miles})
                 </h2>
-                <p className="mt-1 text-2xl font-black uppercase text-white sm:text-3xl">
+                <p className="mt-1 text-2xl font-black uppercase text-white sm:text-2xl">
                   Start Time at {item.startTime}
                 </p>
                 <p className="mt-3 text-base leading-7 text-white/85 sm:text-lg sm:leading-8">
@@ -131,7 +125,7 @@ export default function EventDetailsPage() {
               <p className="flex items-center gap-2 text-sm font-black uppercase tracking-wider text-white/85">
                 <Trophy className="h-4 w-4" /> Start Time
               </p>
-              <p className="mt-2 text-lg text-white">9:00 AM</p>
+              <p className="mt-2 text-lg text-white">8:00AM</p>
             </div>
           </div>
 
