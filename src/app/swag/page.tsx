@@ -18,8 +18,8 @@ const swagItems = [
   {
     title: "Custom Finisher Medal",
     body: "Beautiful custom finisher medal to celebrate your strong finish.",
-    image:
-      "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?auto=format&fit=crop&w=1400&q=80",
+    image: "/medal.png",
+    imageClassName: "object-contain p-4",
   },
   {
     title: "Race Day Keepsakes",
@@ -48,7 +48,13 @@ export default function SwagPage() {
               className="overflow-hidden rounded-2xl border border-white/15 bg-white/5 shadow-[0_14px_30px_rgba(0,0,0,0.20)]"
             >
               <div className="relative h-44 w-full border-b border-white/10 bg-black/20">
-                <Image src={item.image} alt={item.title} fill className="object-cover opacity-80" />
+                <Image
+                  src={item.image}
+                  alt={item.title}
+                  fill
+                  className={`${item.imageClassName ?? "object-cover"} opacity-80`}
+                  sizes="(min-width: 768px) 33vw, 100vw"
+                />
               </div>
               <div className="p-5">
                 <h2 className="text-2xl font-black uppercase tracking-tight text-white">{item.title}</h2>
