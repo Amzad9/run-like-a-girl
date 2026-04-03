@@ -186,7 +186,7 @@ export default function Home() {
             </div>
         </section> */}
 
-        <section id="projects" className="mt-0 bg-[#1e252d] px-4 py-6 sm:px-8">
+        <section id="projects" className="mt-0 bg-[#1e252d] px-4 py-6 sm:px-8 sm:py-12">
           <div className="container mx-auto grid gap-6 lg:grid-cols-[0.5fr_1fr]">
             <div className="relative min-h-[250px] overflow-hidden rounded-3xl border border-white/15">
               <Image
