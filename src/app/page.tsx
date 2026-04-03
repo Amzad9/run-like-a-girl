@@ -190,7 +190,7 @@ export default function Home() {
           <div className="container mx-auto grid gap-6 lg:grid-cols-[0.5fr_1fr]">
             <div className="relative min-h-[250px] overflow-hidden rounded-3xl border border-white/15">
               <Image
-                src="/photo.jpeg"
+                src="/photo.png"
                 alt="Event director"
                 fill
                 className="object-cover"
