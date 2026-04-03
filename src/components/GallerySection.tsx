@@ -13,27 +13,27 @@ import "swiper/css/pagination";
 const galleryImages = [
   {
     src: "/gallary/gal1.webp",
-    alt: "Atlas Pool Solutions gallery image of a renovated commercial pool",
+    alt: "Run Like A Girl gallery image of a women running",
   },
   {
     src: "/gallary/gal2.webp",
-    alt: "Atlas Pool Solutions gallery image of a pool deck and finish upgrade",
+    alt: "Run Like A Girl gallery image of a women running",
   },
   {
     src: "/gallary/gal3.webp",
-    alt: "Atlas Pool Solutions gallery image of a pool renovation detail",
+    alt: "Run Like A Girl gallery image of a women running",
   },
   {
     src: "/gallary/gal4.webp",
-    alt: "Atlas Pool Solutions gallery image of a modern pool amenity",
+    alt: "Run Like A Girl gallery image of a women running",
   },
   {
     src: "/gallary/gal5.webp",
-    alt: "Atlas Pool Solutions gallery image of an upgraded poolside environment",
+    alt: "Run Like A Girl gallery image of a women running",
   },
   {
     src: "/gallary/gal6.webp",
-    alt: "Atlas Pool Solutions gallery image of a completed pool improvement project",
+    alt: "Run Like A Girl gallery image of a women running",
   },
 ];
 
@@ -62,8 +62,8 @@ export default function GallerySection({
               Recent Work And Renovation Highlights
             </h2>
             <p className="mt-4 text-base leading-7 text-[#c9d4da] sm:text-lg sm:leading-8">
-              Explore a selection of pool, spa, deck, and amenity images that reflect the type of
-              commercial renovation and upgrade work Atlas Pool Solutions delivers.
+              Explore a selection of women running images that reflect the type of
+              commercial renovation and upgrade work Run Like A Girl delivers.
             </p>
           </div>
         ) : null}
