@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 
 import PageShell from "../../components/PageShell";
@@ -18,6 +17,7 @@ export default function OurBeneficiaryPage() {
         title: "Girls on the Run Central Ohio",
         subtitle: "A mission-driven partner helping girls build confidence, joy, and lifelong healthy habits.",
         imageUrl: "https://images.pexels.com/photos/1571939/pexels-photo-1571939.jpeg",
+        videoUrl: "/120683-721759770_medium.mp4",
       }}
     >
      

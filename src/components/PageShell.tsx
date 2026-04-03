@@ -10,6 +10,8 @@ type PageShellProps = {
     title: ReactNode;
     subtitle?: ReactNode;
     imageUrl?: string;
+    /** When set, plays behind the hero gradient (use imageUrl as optional poster). */
+    videoUrl?: string;
   };
   children: ReactNode;
 };
@@ -24,14 +26,33 @@ export default function PageShell({ activeLabel, hero, children }: PageShellProp
           <section
             className={[
               "relative overflow-hidden px-4 pb-12 pt-10 sm:px-8 sm:pb-16 sm:pt-16",
-              hero.imageUrl ? "bg-cover bg-center" : "bg-[#1e252d]",
+              hero.videoUrl ? "bg-[#1e252d]" : hero.imageUrl ? "bg-cover bg-center" : "bg-[#1e252d]",
             ].join(" ")}
-            style={hero.imageUrl ? { backgroundImage: `url('${hero.imageUrl}')` } : undefined}
+            style={
+              hero.videoUrl
+                ? undefined
+                : hero.imageUrl
+                  ? { backgroundImage: `url('${hero.imageUrl}')` }
+                  : undefined
+            }
           >
-            <div className="absolute inset-0 bg-linear-to-r from-[#171b22]/95 via-[#1c232b]/70 to-[#1c232b]/20" />
+            {hero.videoUrl ? (
+              <video
+                className="pointer-events-none absolute inset-0 z-0 h-full w-full object-cover"
+                autoPlay
+                loop
+                muted
+                playsInline
+                poster={hero.imageUrl}
+                aria-hidden
+              >
+                <source src={hero.videoUrl} type="video/mp4" />
+              </video>
+            ) : null}
+            <div className="absolute inset-0 z-1 bg-linear-to-r from-[#171b22]/95 via-[#1c232b]/70 to-[#1c232b]/20" />
 
-            <div className="container mx-auto">
-              <div className="relative z-10 max-w-4xl">
+            <div className="container relative z-10 mx-auto">
+              <div className="relative max-w-4xl">
                 {hero.eyebrow ? (
                   <p className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.22em] text-white sm:text-sm">
                     {hero.eyebrow}

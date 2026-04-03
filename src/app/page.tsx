@@ -4,23 +4,23 @@ import { Star } from "lucide-react";
 
 import SiteFooter from "../components/SiteFooter";
 import SiteHeader from "../components/SiteHeader";
-const testimonials = [
-  {
-    name: "Chloe L.",
-    message: "The sense of community was amazing! So supportive for my first 5K.",
-    image: "/images/test1.png",
-  },
-  {
-    name: "Maria R.",
-    message: "Completing the 10-Mile was a proud moment. A well-organized, friendly competition.",
-    image: "/images/test2.png",
-  },
-  {
-    name: "Janet P.",
-    message: "Loved the non-profit focus and the custom medal is beautiful!",
-    image: "/images/test3.png",
-  },
-];
+// const testimonials = [
+//   {
+//     name: "Chloe L.",
+//     message: "The sense of community was amazing! So supportive for my first 5K.",
+//     image: "/images/test1.png",
+//   },
+//   {
+//     name: "Maria R.",
+//     message: "Completing the 10-Mile was a proud moment. A well-organized, friendly competition.",
+//     image: "/images/test2.png",
+//   },
+//   {
+//     name: "Janet P.",
+//     message: "Loved the non-profit focus and the custom medal is beautiful!",
+//     image: "/images/test3.png",
+//   },
+// ];
 
 export default function Home() {
   return (
@@ -72,7 +72,7 @@ export default function Home() {
               <div className="relative overflow-hidden rounded-3xl border border-white/20 bg-[#83a73d]">
                 <video
                   className="min-h-[240px] w-full object-cover md:min-h-[480px]"
-                  src="/Run Like a Girl 2.mp4"
+                  src="/120683-721759770_medium.mp4"
                   autoPlay
                   loop
                   muted
@@ -125,20 +125,12 @@ export default function Home() {
         </section>
 
         <section id="services" className="mt-5 bg-[#1d232b] px-4 py-6 sm:px-8">
-          <div className="container mx-auto grid gap-6 lg:grid-cols-[1fr_1fr]">
-            <div className="relative min-h-[300px] overflow-hidden rounded-3xl border border-white/15">
-              <Image
-                src="https://images.pexels.com/photos/3755440/pexels-photo-3755440.jpeg"
-                alt="Women at finish line"
-                fill
-                className="object-cover"
-              />
-            </div>
+          <div className="container mx-auto grid items-center gap-6 lg:grid-cols-[1fr_1fr]">
             <div>
               <h2 className="md:text-4xl font-black uppercase leading-none text-[#f3d27d] text-2xl">
                 Featured Event Details
               </h2>
-              <ul className="mt-5 space-y-4 text-2xl leading-tight text-white/95 sm:text-2xl">
+              <ul className="mt-5 space-y-4 text-xl leading-tight text-white/95 sm:text-xl">
                 <li>
                   <span className="font-semibold">Choose your challenge:</span> Distances are 5K, 10K,
                   and 10-Mile.
@@ -153,10 +145,18 @@ export default function Home() {
                 </li>
               </ul>
             </div>
+            <div className="relative min-h-[300px] overflow-hidden rounded-3xl border border-white/15">
+              <Image
+                src="https://images.pexels.com/photos/3755440/pexels-photo-3755440.jpeg"
+                alt="Women at finish line"
+                fill
+                className="object-cover"
+              />
+            </div>
           </div>
         </section>
 
-        <section id="packet-pickup" className="mt-5 bg-[#212831] px-4 py-6 sm:px-8">
+        {/* <section id="packet-pickup" className="mt-5 bg-[#212831] px-4 py-6 sm:px-8">
           <div className="container mx-auto">
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
               {[
@@ -184,13 +184,13 @@ export default function Home() {
               ))}
             </div>
             </div>
-        </section>
+        </section> */}
 
         <section id="projects" className="mt-0 bg-[#1e252d] px-4 py-6 sm:px-8">
           <div className="container mx-auto grid gap-6 lg:grid-cols-[0.5fr_1fr]">
             <div className="relative min-h-[250px] overflow-hidden rounded-3xl border border-white/15">
               <Image
-                src="https://images.pexels.com/photos/3757376/pexels-photo-3757376.jpeg"
+                src="/photo.jpeg"
                 alt="Event director"
                 fill
                 className="object-cover"
@@ -200,21 +200,21 @@ export default function Home() {
                 <h3 className="md:text-4xl font-black uppercase leading-none text-[#f3d27d] text-2xl">
                 A Message From Our Event Director
               </h3>
-              <p className="mt-4 max-w-6xl text-xl leading-8 text-white/95 sm:text-2xl sm:leading-[1.3]">
+              <p className="mt-4 max-w-6xl text-xl leading-8 text-white/95 sm:text-xl sm:leading-[1.3]">
                 On behalf of the running and fitness community of Central Ohio, we are proud to
                 present an all-female program created to inspire and empower women of all ages and
                 fitness levels.
               </p>
-              <p className="mt-3 max-w-6xl text-xl leading-8 text-white/95 sm:text-2xl sm:leading-[1.3]">
+              <p className="mt-3 max-w-6xl text-xl leading-8 text-white/95 sm:text-xl sm:leading-[1.3]">
                 Our mission is to help women achieve their fitness goals in a fun, supportive, and
                 motivating environment.
               </p>
-              <p className="mt-3 max-w-6xl text-xl leading-8 text-white/95 sm:text-2xl sm:leading-[1.3]">
+              <p className="mt-3 max-w-6xl text-xl leading-8 text-white/95 sm:text-xl sm:leading-[1.3]">
                 Whether you&apos;re a first-time participant or a seasoned runner, this program offers
                 the perfect opportunity to train, connect, and grow. It&apos;s also an excellent
                 preparation for fall marathons and other distance events.
               </p>
-              <p className="mt-5 text-2xl text-white sm:text-3xl">Jeff Sheard - Race Director</p>
+              <p className="mt-5 text-xl text-white sm:text-xl">Jeff Sheard - Race Director</p>
               <p className="mt-1 text-xl text-white/90 sm:text-2xl">Jeff S</p>
               <div className="mt-6">
                 <Link
