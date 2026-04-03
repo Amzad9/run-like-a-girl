@@ -215,7 +215,6 @@ export default function Home() {
                 preparation for fall marathons and other distance events.
               </p>
               <p className="mt-5 text-xl text-white sm:text-xl">Jeff Sheard - Race Director</p>
-              <p className="mt-1 text-xl text-white/90 sm:text-2xl">Jeff S</p>
               <div className="mt-6">
                 <Link
                   href="https://runsignup.com/Race/OH/Westerville/RunLikeAGirl5KAnd10K"
