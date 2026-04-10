@@ -55,6 +55,17 @@ const raceDayGuidelines = [
   "Only registered participants may race with an assigned bib number.",
 ];
 
+const raceMaps = [
+  {
+    title: "5K Course Map",
+    href: "https://www.runningahead.com/maps/d94e12fb0fb64aa29ccb013eb7381597?unit=mi&map=roadmap",
+  },
+  {
+    title: "10K / 10-Mile Course Map",
+    href: "https://www.runningahead.com/maps/1ca85efadb23419189ee8130f8b6f0f1?unit=mi&map=roadmap",
+  },
+];
+
 export default function EventDetailsPage() {
   return (
     <PageShell
@@ -198,6 +209,48 @@ export default function EventDetailsPage() {
               <ShieldCheck className="h-4 w-4 text-[#f3d27d]" />
               Follow volunteer direction and official signage throughout race morning.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="px-4 pb-12 sm:px-8 sm:pb-16">
+        <div className="container mx-auto rounded-[24px] border border-white/15 bg-[#1e252d] p-6 shadow-[0_18px_44px_rgba(0,0,0,0.35)] sm:p-8">
+          <h3 className="text-3xl font-black uppercase tracking-tight text-[#f3d27d] sm:text-4xl">
+            Race Maps
+          </h3>
+          <p className="mt-3 max-w-4xl text-base leading-7 text-white/90 sm:text-lg sm:leading-8">
+            Preview each course below. If your browser blocks embedded maps, use the open-map link
+            to view the full interactive route in a new tab.
+          </p>
+
+          <div className="mt-6 grid gap-6 lg:grid-cols-2">
+            {raceMaps.map((map) => (
+              <article
+                key={map.title}
+                className="overflow-hidden rounded-2xl border border-white/15 bg-white/5 shadow-[0_14px_30px_rgba(0,0,0,0.20)]"
+              >
+                <div className="flex items-center justify-between gap-3 border-b border-white/10 px-5 py-4">
+                  <h4 className="text-xl font-black uppercase tracking-tight text-white">{map.title}</h4>
+                  <Link
+                    href={map.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm font-semibold uppercase tracking-wide text-pink-200 transition hover:text-pink-100"
+                  >
+                    Open full map
+                  </Link>
+                </div>
+                <div className="h-[420px] w-full bg-black/25">
+                  <iframe
+                    title={map.title}
+                    src={map.href}
+                    className="h-full w-full border-0"
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                  />
+                </div>
+              </article>
+            ))}
           </div>
         </div>
       </section>
