@@ -9,16 +9,15 @@ export const siteNav: SiteNavItem[] = [
   { label: "Event Details", href: "/event-details" },
   { label: "Our Beneficiary", href: "/our-beneficiary" },
   { label: "Swag", href: "/swag" },
-  { label: "Sponsors", href: "/sponsors" },
   { label: "Packet Pickup", href: "/packet-pickup" },
   { label: "Questions", href: "/questions" },
 ];
 
 export const siteContact = {
-  emailShowroom: "info@runlikeagirlOH.org",
-  emailOperations: "info@runlikeagirlOH.org",
-  phone: "(614) 555-RUNS",
-  phoneHref: "tel:+16145557867",
+  emailShowroom: "jeff@ultrafitusa.com",
+  emailOperations: "jeff@ultrafitusa.com",
+  phone: "614-332-5205",
+  phoneHref: "tel:+16143325205",
   addressLines: [
     "Westerville Athletic Complex,",
     "325 N. Cleveland Ave,",

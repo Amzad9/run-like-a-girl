@@ -49,10 +49,8 @@ const eventFlow = [
 ];
 
 const raceDayGuidelines = [
-  "Seed yourself at the start based on your expected pace and comfort level.",
-  "Runners and walkers are welcome across all listed distances.",
-  "If you are using a stroller, begin near the back for a safer start flow.",
-  "Only registered participants may race with an assigned bib number.",
+  "Runners and walkers are welcome to compete in both the 5K and 10K.",
+  "The 10-Mile distance is for runners only.",
 ];
 
 const raceMaps = [
