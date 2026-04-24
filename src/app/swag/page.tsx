@@ -22,7 +22,7 @@ const swagItems: SwagItem[] = [
     title: "Official Race Shirt",
     body: "Commemorative race shirt included with registration while supplies last.",
     image:
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=1400&q=80",
+      "/shirt.png",
   },
 
   {
@@ -87,14 +87,14 @@ export default function SwagPage() {
             >
               <div
                 className={`relative w-full border-b border-white/10 bg-black/20 ${
-                  item.imageWrapperClassName ?? "h-74"
+                  item.imageWrapperClassName ?? "min-h-96 md:min-h-190"
                 }`}
               >
                 <Image
                   src={item.image}
                   alt={item.title}
                   fill
-                  className={`${item.imageClassName ?? "object-cover"} opacity-80`}
+                  className={`${item.imageClassName ?? "object-contain md:object-cover"} opacity-80`}
                   sizes="(min-width: 768px) 33vw, 100vw"
                 />
               </div>

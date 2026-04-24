@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 const pickupDates = [
   "Saturday, Sept 20 | 10:00 AM - 1:00 PM",
   "Saturday, Sept 27 | 10:00 AM - 1:00 PM",
-  "Race Day (Sunday, Oct 4) | Starts 9:00 AM",
+  "Race day pickup is Sunday, October 4th from 6:30am-7:30am",
 ];
 
 const checklistItems = [
@@ -36,7 +36,7 @@ export default function PacketPickupPage() {
       activeLabel="Packet Pickup"
       hero={{
         eyebrow: "Packet Pickup",
-        title: "Pick Up Early, Race Smoothly",
+        title: "Location of early packet pickup is pending.",
         subtitle: "Use one of our pickup windows to save time and start race morning stress-free.",
         imageUrl:
           "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?auto=format&fit=crop&w=1800&q=80",

@@ -113,7 +113,7 @@ export default function Home() {
               },
               {
                 title: "Non-Profit Partner",
-                body: "Your participation helps a local non-profit. Proceeds benefit a great cause.",
+                body: "Your participation helps a local non-profit. Proceeds benefit Girls on the Run.",
               },
             ].map((item) => (
               <article key={item.title} className="rounded-2xl border border-white/12 bg-white/5 p-4">

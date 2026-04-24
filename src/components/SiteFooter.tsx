@@ -70,9 +70,9 @@ export default function SiteFooter() {
               })}
             </div>
             <div className="mt-4 text-base leading-7 text-[#d7dee2] sm:text-lg sm:leading-8">
-              <p className="font-black text-white">Race Day Tips!</p>
+              <p className="font-black text-white">Race day tips.</p>
               <p>Packet pickup: Advance pickup recommended.</p>
-              <p>Start Time: 9:00 am on 10/04/2026.</p>
+              <p>Start time: 8am on 10/04/2026.</p>
             </div>
           </div>
 
