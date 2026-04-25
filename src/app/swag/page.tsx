@@ -29,7 +29,7 @@ const swagItems: SwagItem[] = [
     title: "Race Day Keepsakes",
     body: "Event experience extras and community vibes you'll remember long after race day.",
     image:
-      "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1400&q=80",
+      "https://images.pexels.com/photos/17979583/pexels-photo-17979583.jpeg",
   },
 ];
 
